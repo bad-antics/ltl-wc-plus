@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_wc_plus
+
+import std::io
+use ltl_wc_plus as lib
+
+fn main() {
+    io::println("ltl_wc_plus demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
