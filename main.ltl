@@ -1,0 +1,15 @@
+// ltl-wc-plus/main.ltl
+//
+// Word / line / byte / grapheme counter with UTF-8 awareness.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-wc-plus v0.1.0")
+    io::println("Word / line / byte / grapheme counter with UTF-8 awareness.")
+    0
+}
